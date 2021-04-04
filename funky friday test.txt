@@ -1,4 +1,5 @@
 --// ENV
+print("Credits to Introvert#1337 for the original script, credits to minusminusminusminu2 for remaking it. Script has loaded by the way! Enjoy!")
 
 islclosure = islclosure or is_l_closure
 getgc = getgc or get_gc_objects
