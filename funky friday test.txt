@@ -27,7 +27,7 @@ do
     Variables.NoteAccuracy = {}
 
     Variables.Constants.DISTANCE_TO_ACCURACY = {
-        ["Sick"] = 0.06,
+        ["Sick"] = 0.08,
         ["Good"] = 0.1,
         ["Ok"] = 0.15,
         ["Bad"] = 0.2
