@@ -1,0 +1,13 @@
+shared.Settings = {
+   Autoplay = true, -- is the autoplayer is enabled
+   ReleaseDelay = 0, -- time to wait before releasing the note (in ms)
+   
+   Percentages = { -- accuracy percentages
+       ["Sick"] = 100,
+       ["Good"] = 0,
+       ["Ok"] = 0,
+       ["Bad"] = 0
+   }
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/minusminusminusminu2/test/main/experimental%20funky%20friday%20test"))()
