@@ -71,7 +71,7 @@ while runService.RenderStepped:wait() do
               local position = map[index]
               if (not position) then continue end
               local distance = (1 - math.abs(arrow.Data.Time - framework.SongPlayer.CurrentlyPlaying.TimePosition)) * 100
-              if distance >= 95 then
+              if distance >= 90 then
                   marked[arrow] = true;
                   fastSpawn(function()
                       if mode == 0 then wait(Random.new():NextNumber(0.02, maxdelay)) else end
