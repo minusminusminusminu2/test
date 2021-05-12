@@ -1,3 +1,4 @@
+print("Made by Introvert#1337, Edited by mimnusminusminusminu2")
 islclosure = islclosure or is_l_closure
 getgc = getgc or get_gc_objects
 getconstants = getconstants or debug.getconstants
